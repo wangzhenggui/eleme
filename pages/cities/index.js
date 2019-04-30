@@ -14,9 +14,12 @@ Page({
   },
   onLoad(query) {
     // 页面加载
-    subscribe(() => {
+    this.unsubscribe = subscribe(() => {
       this.updateData() // 订阅Store
     })
+  },
+  onUnload() {
+    this.unsubscribe() // 取消订阅
   },
   bindModal: () => {
     dispatch({
