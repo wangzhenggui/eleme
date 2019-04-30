@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cities/index"
+  ],
+  "window": {
+    "defaultTitle": "饿了么",
+    "pullRefresh": "YES",
+    "allowsBounceVertical": "YES",
+    "titleBarColor": "#3190e8"
+  },
+  "tabBar": {
+    "textColor": "#cdcdcd",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "icon": "/assets/eleme_grey.png",
+        "activeIcon": "/assets/eleme_light.png",
+        "pagePath": "pages/index/index",
+        "name": "首页"
+      },
+      {
+        "icon": "/assets/order_grey.png",
+        "activeIcon": "/assets/order_light.png",
+        "pagePath": "pages/order/index",
+        "name": "订单"
+      },
+      {
+        "icon": "/assets/my_grey.png",
+        "activeIcon": "/assets/my_light.png",
+        "pagePath": "pages/my/index",
+        "name": "我的"
+      }
+    ]
+  }
+}

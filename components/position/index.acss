@@ -1,0 +1,46 @@
+.positionView {
+  background: #3190e8;
+  width: 750rpx;
+  height:100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cityView {
+  display: flex;
+  align-items: center;
+  
+}
+.positionIcon {
+  width: 30rpx;
+  height: 30rpx;
+}
+.city {
+  margin-left: 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 180rpx;
+  color: #FFF;
+}
+.downIcon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: 20rpx;
+}
+
+.searchView {
+  display: flex;
+  align-items: center;
+  width: 350rpx;
+  height: 50rpx;
+  background: #FFF;
+  border-radius: 25rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.inputText {
+  color: #dbdbdb;
+  padding-left: 20rpx;
+}

@@ -1,0 +1,11 @@
+<view class="positionView">
+  <view onTap="selectCity" class="cityView">
+    <image src="/assets/position-fill.png" mode="scaleToFill" class="positionIcon"/>
+    <text class="city">{{position}}</text>
+    <image src="/assets/down.png" mode="scaleToFill" class="downIcon"/>
+  </view>
+  <view class="searchView" onTap="selectBusiness">
+    <image src="/assets/search.png" mode="scaleToFill" class="positionIcon"/>
+      <text class="inputText">输入商家、商品名称</text>
+  </view>
+</view>

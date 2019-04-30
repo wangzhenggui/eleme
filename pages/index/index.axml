@@ -1,0 +1,3 @@
+<view class="pageView">
+  <position position={{address}}/>
+</view>
