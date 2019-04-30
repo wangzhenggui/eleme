@@ -1,3 +1,4 @@
 <view>
-  选择地址{{hh}}
+  选择地址{{cityNumber}}
+  <view onTap="bindModal">点击</view>
 </view>
