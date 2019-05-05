@@ -1,3 +1,5 @@
-<view class="pageView">
+<view class="pageView" onTap="viewClick">
+  <!-- <view>{{cityNumber}}</view> -->
   <position position={{address}}/>
 </view>
+

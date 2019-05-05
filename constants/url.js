@@ -1,0 +1,1 @@
+export const URL_GET_JSON = 'http://render-dev.site.alipay.net/p/h5data_offline/dev_mrchportal-h5data_assetSign_index-h5data.json'

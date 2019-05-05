@@ -1,1 +1,2 @@
-export const RESET_ALL = 'RESET_ALL';
+export const HOME_GET_LOCATION = 'HOME_GET_LOCATION';
+export const HOME_GET_JSON_DATA = 'HOME_GET_JSON_DATA';
