@@ -1,0 +1,6 @@
+<view class="outView">
+  <text class="maylikeText">猜你喜欢</text>
+  <scroll-view scroll-y="{{true}}" class="scollerView" onScrollToLower="lower" a:for="{{}}">
+    
+  </scroll-view>
+<view>

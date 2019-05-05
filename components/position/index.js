@@ -4,6 +4,8 @@ Component({
   props: {
     position: ''
   },
+  didMount() {
+  },
   methods: {
     selectCity() {
       my.navigateTo({

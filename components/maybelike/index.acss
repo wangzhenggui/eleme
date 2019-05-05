@@ -1,0 +1,15 @@
+.maylikeText {
+  font-size: 32rpx;
+  padding-left: 30rpx;
+}
+.outView {
+  margin-top: 30rpx;
+}
+.scollerView {
+  height: 900rpx;
+  margin-top: 30rpx;
+  background: red;
+}
+.testStyle {
+  height: 300rpx;
+}

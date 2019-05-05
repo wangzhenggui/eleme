@@ -1,5 +1,6 @@
 {
-   "usingComponents": {
-     "position":"/components/position/index"
-   }
+  "usingComponents": {
+    "position": "/components/position/index",
+    "maybelike": "/components/maybelike/index"
+  }
 }
