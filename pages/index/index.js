@@ -3,7 +3,6 @@ const app = getApp()
 const Store = app.Store
 const dispatch = Store.dispatch
 const subscribe = Store.subscribe
-const order = ['blue', 'red', 'green', 'yellow'];
 
 Page({
   data:{
@@ -11,33 +10,6 @@ Page({
     district:'朝阳区',
     address:'',
     cityNumber: '',
-    items: [
-      {
-        title: '单行列表',
-        extra: '详细信息',
-      },
-    ],
-    items2: [
-      {
-        title: '多行列表',
-        arrow: true,
-      },
-      {
-        title: '多行列表',
-        arrow: 'up',
-      },
-      {
-        title: '多行列表',
-        arrow: 'down',
-      },
-      {
-        title: '多行列表',
-        arrow: 'empty',
-      },
-      {
-        title: '多行列表',
-      },
-    ],
   },
   storeUpdate() {
     const data = Store.getState().home
