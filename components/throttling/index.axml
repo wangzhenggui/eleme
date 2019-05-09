@@ -1,3 +1,3 @@
-<view onTap="throttling">
+<view onTap="throttle">
   <slot></slot>
 </view>

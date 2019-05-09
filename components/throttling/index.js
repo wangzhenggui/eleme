@@ -1,13 +1,19 @@
-let timer = null
+let flag = true
 Component({
   methods:{
     throttling(){
-      if(timer) {
-        clearTimeout(timer)
+      return function() {
+        console.log(flag)
+        if(!flag) return
+        flag = false
+        setTimeout(()=>{
+          this.props.onCallback()
+          flag = true
+        },1000)
       }
-      timer = setTimeout(()=>{
-        this.props.onCallback()
-      },300)
+    },
+    throttle() {
+      this.throttling().call(this)
     }
   }
 })
